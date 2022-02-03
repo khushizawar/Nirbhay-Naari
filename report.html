@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Foodzie Login</title>
+  <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/887e6e97bd.js" crossorigin="anonymous"></script>
+  <!-- CSS STYLESHEET -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-
+    9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href=" css/k.css ">
+
+    <meta http-equiv="X-UA-Compatible" 
+        content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Video & Audio Recorder</title>
+
+</head>
+
+<body>
+  <div class="fluid-container" style="background-color:#bfbddb;">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand"style="text-align:center"href="index.html">Nirbhay Naari</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data- target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria- expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+    </nav>
+    <div class="container" id="container">
+      <div class="form-container sign-in-container">
+        <form id="logform" action="connection.php" method="post" name="logform">
+          <h1 style="font-weight: bold; margin: 0;">Report a case!</h1>
+          
+          <br>
+          <br>
+          <br>
+          
+          
+         
+<body>
+    <h1> Video & Audio Recorder </h1>
+    <label for="media">
+        Select what you want to record:
+    </label>
+  
+    <select id="media">
+        <option value="choose-an-option"> 
+            Choose an option
+        </option>
+        <option value="vid">Video</option>
+        <option value="aud">Audio</option>
+    </select>
+  
+    <div class="display-none" id="vid-recorder">
+        <h3>Record Video </h3>
+        <video autoplay id="web-cam-container" 
+            style="background-color: black;">
+            Your browser doesn't support 
+            the video tag
+        </video>
+  
+        <div class="recording" id="vid-record-status">
+            Click the "Start video Recording" 
+            button to start recording
+        </div>
+  
+        <!-- This button will start the video recording -->
+        <button type="button" id="start-vid-recording" 
+            onclick="startRecording(this, 
+            document.getElementById('stop-vid-recording'))">
+            Start video recording
+        </button>
+  
+        <!-- This button will stop the video recording -->
+        <button type="button" id="stop-vid-recording" 
+            disabled onclick="stopRecording(this, 
+            document.getElementById('start-vid-recording'))">
+            Stop video recording
+        </button>
+  
+        <!--The video element will be created using 
+            JavaScript and contains recorded video-->
+        <!-- <video id="recorded-video"  controls>
+            Your browser doesn't support the video tag
+        </video> -->
+  
+        <!-- The below link will let the
+             users download the recorded video -->
+        <!-- <a href="" > Download it! </a> -->
+    </div>
+  
+    <div class="display-none" id="aud-recorder">
+        <h3> Record Audio</h3>
+  
+        <div class="recording" id="aud-record-status">
+            Click the "Start Recording" 
+            button to start recording
+        </div>
+  
+        <button type="button" id="start-aud-recording" 
+            onclick="startRecording(this, 
+            document.getElementById('stop-aud-recording'))">
+            Start recording 
+        </button>
+  
+        <button type="button" id="stop-aud-recording" 
+            disabled onclick="stopRecording(this, 
+            document.getElementById('start-aud-recording'))">
+            Stop recording
+        </button>
+  
+        <!-- The audio element will contain the 
+            recorded audio and will be created 
+            using Javascript -->
+        <!-- <audio id="recorded-audio" 
+            controls></audio> -->
+  
+        <!-- The below link will let the users 
+             download the recorded audio -->
+        <!-- <a href="" > Download it! </a> -->
+    </div>
+
+  
+    <script src="k.js"></script>
+</body>
+          
+
+
+        
+          <br>
+          <br>
+          <div>
+            <label for="profile_pic">Choose audio file to upload</label>
+            <input type="file" id="profile_pic" name="profile_pic"
+                  accept=".jpg, .jpeg, .png">
+          </div>
+         
+         
+          <button id="logbut">Submit</button>
+        
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="k.js" charset="utf-8"></script>
+</body>
+<footer id="footer">
+  <p>© Copyright 2020 Foodzie</p>
+</footer>
+
+</html>

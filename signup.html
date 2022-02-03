@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Sign Up!</title>
+  <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/887e6e97bd.js" crossorigin="anonymous"></script>
+  <!-- CSS STYLESHEET -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href=" css/login.css ">
+
+</head>
+
+<body>
+  <div class="fluid-container" style="background-color:#bfbddb">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="index.html">FoodZie</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data- target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria- expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="features.html">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="signup.html">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container" id="container">
+      <div class="form-container sign-in-container">
+        <form id="signupform" action="signup.php" method="post">
+          <h1 style="font-weight: bold; margin: 0;">Create Account</h1>
+          <div class="social-container">
+            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <span>or use your email for registration</span>
+          <input id="fullname" type="text" placeholder="Name" name="fullname" />
+          <input id="emailid" type="email" placeholder="Email" name="emailid" />
+          <input id="password" type="password" placeholder="Password" name="password" />
+          <input id="cpassword" type="password" placeholder=" Confirm Password" name="cpassword" />
+          <button id="signbutton">Sign Up</button>
+          <a style="color: #000000" href="login.html">Already have an account?</a>
+                </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="s.js" charset="utf-8"></script>
+  <footer id="footer">
+    <p>© Copyright 2020 Foodzie</p>
+  </footer>
+
+</html>

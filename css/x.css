@@ -1,0 +1,50 @@
+MENU{
+  color:white;
+  font-size: 20pt;
+}
+FOOD,customer {
+    background-color:#184d47;
+    width: 100%;
+
+    border-style: solid;
+     border-width: 5px;
+     height: 700px;
+     text-align: center;
+   border-left: 2px solid;
+}
+ITEM {
+    display: block;
+    margin-bottom: 30pt;
+    margin-left: 0;
+}
+TITLE {
+    display: block;
+    color:white;
+    font-size: 20pt;
+}
+NAME {
+    display: block;
+    color:white;
+    font-size: 20pt;
+}
+to,from,heading{
+  display: block;
+  color: white;
+  margin-left: 20pt;
+  font-size: 20pt;
+}
+footer{
+  display: block;
+  color: white;
+  margin-left: 20pt;
+}
+ABOUT,PRICE{
+    display: block;
+    color: white;
+    margin-left: 20pt;
+}
+msg,m{
+  color: white;
+  margin-left: 20pt;
+  font-size: 20pt;
+}
