@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 
@@ -10,7 +11,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="{% static 'colorapp/css/styles.css' %}">
 </head>
 <body>
 
@@ -53,7 +54,7 @@
       </div>
 
     <div class="col-lg-6">
-    <img class="title-image" src="images/woman.png" alt="iphone-mockup">
+    <img class="title-image" src="{% static 'colorapp/images/woman.png' %}" alt="iphone-mockup">
   </div>
 
     </div>
